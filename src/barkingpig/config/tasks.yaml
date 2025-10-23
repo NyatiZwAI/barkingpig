@@ -1,0 +1,21 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is {current_year}.
+  expected_output: >
+    A list with 5 bullet points of the most relevant information about {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and expand each topic into material suitable for the different
+    social media platforms online.
+    Make sure the reports are detailed and contains any and all relevant information.
+    Categorize the reports to fit the following social media platforms tik tok, twitter
+    spaces, linkedin and whatsapp.
+  expected_output: >
+    Fully fledged reports with the main topics and social media platform each
+    with a full section of information.
+    Formatted as markdown without '```'
+  agent: reporting_analyst

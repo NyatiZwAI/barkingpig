@@ -1,0 +1,4 @@
+User name is John Doe.
+User is a Social Media Professional.
+User is interested in Web3 and Blockchain develpments in Sub Saharan Africa.
+User is based in Gauteng, South Africa.

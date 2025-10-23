@@ -1,0 +1,6 @@
+crewai
+langchain[all]
+openai
+pydentic
+streamlit
+ChatOpenAI

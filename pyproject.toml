@@ -1,0 +1,28 @@
+[project]
+name = "barkingpig"
+version = "0.1.0"
+description = "barkingpig using crewAI"
+authors = [
+    { name = "Your Name", email = "you@example.com" },
+]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.165.1,<1.0.0",
+    "langchain>=1.0.2",
+    "langchain-openai>=1.0.1",
+    "openai>=1.109.1",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+barkingpig = "barkingpig.main:run"
+run_crew = "barkingpig.main:run"
+train = "barkingpig.main:train"
+replay = "barkingpig.main:replay"
+test = "barkingpig.main:test"
+
+[build-system]
+requires = [
+    "hatchling",
+]
+build-backend = "hatchling.build"
