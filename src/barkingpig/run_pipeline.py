@@ -6,7 +6,10 @@ from pathlib import Path
 from datetime import datetime
 from crewai import LLM, Agent, Task, Crew
 from langchain_openai import ChatOpenAI
+from openai import OpenAI
+from dotenv import load_dotenv
 
+load_dotenv()
 CONFIG_PATH = Path(__file__).parent / "config"
 
 def load_yaml(file_name):
