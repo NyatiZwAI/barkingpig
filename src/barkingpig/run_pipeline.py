@@ -5,7 +5,7 @@ import csv
 from pathlib import Path
 from datetime import datetime
 from crewai import LLM, Agent, Task, Crew
-from langchain.chat_models import ChatOpenAI
+from langchain.openai import ChatOpenAI
 
 CONFIG_PATH = Path(__file__).parent / "config"
 

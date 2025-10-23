@@ -1,8 +1,7 @@
 crewai
-langchain[all]
 openai
-pydentic
-Streamlit
-ChatOpenAI
-langchain-community
-dotenv
+pydantic
+streamlit
+langchain
+langchain-openai
+python-dotenv
