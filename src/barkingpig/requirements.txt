@@ -2,7 +2,7 @@ crewai
 langchain[all]
 openai
 pydentic
-streamlit
+Streamlit
 ChatOpenAI
 langchain-community
 dotenv
