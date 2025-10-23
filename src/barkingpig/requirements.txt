@@ -5,4 +5,3 @@ streamlit
 langchain
 langchain-openai
 python-dotenv
-os
