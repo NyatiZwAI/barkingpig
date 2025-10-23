@@ -20,7 +20,7 @@ def build_agents(topic: str):
     # Initialize real LLM object
     llm = ChatOpenAI(
         model="gpt-4o-mini",
-        openai_api_key=os.getenv("OPENAI_API_KEY")
+        openai_api_key=os.getenv.get("OPENAI_API_KEY")
     )
 
     agents = {}
